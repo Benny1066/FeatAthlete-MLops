@@ -1,0 +1,47 @@
+{
+  "feature_versions": {
+    "version_1": {
+      "created_at": "2025-07-13T00:39:28.096176",
+      "description": "Basic features version",
+      "shape": [
+        114012,
+        8
+      ],
+      "columns": [
+        "age",
+        "height",
+        "weight",
+        "gender_encoded",
+        "candj",
+        "snatch",
+        "backsq",
+        "deadlift"
+      ],
+      "file_path": "feature_store/features/version_1.pkl"
+    },
+    "version_2": {
+      "created_at": "2025-07-13T00:39:28.100809",
+      "description": "Advanced features version",
+      "shape": [
+        113110,
+        13
+      ],
+      "columns": [
+        "age",
+        "height",
+        "weight",
+        "gender_encoded",
+        "bmi",
+        "age_group",
+        "candj",
+        "snatch",
+        "backsq",
+        "total_strength",
+        "avg_strength",
+        "strength_weight_ratio",
+        "deadlift"
+      ],
+      "file_path": "feature_store/features/version_2.pkl"
+    }
+  }
+}
